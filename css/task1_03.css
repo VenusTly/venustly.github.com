@@ -1,0 +1,67 @@
+body{
+	padding: 20px;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+.team_logo img{
+	width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    border: solid 1px #999;
+    margin: 20px 20px;
+    float: left;
+}
+.team_name{
+	font-size: 8px;
+	float: left;
+	margin-top: 20px;
+}
+.containter{
+	background-color: #eee;
+	width: auto;
+	padding: 20px;
+	height: auto;
+	border: solid 1px #999;
+}
+.containter:before,
+.containter:after {
+  content: "";
+  display: table;
+}
+.containter:after {
+  clear: both;
+}
+.containter {
+  *zoom: 1;
+}
+.left_art{
+	width: 200px;
+	height: 150px;
+	float: left;
+	border: solid 1px #999;
+	background-color: #fff;
+}
+img{
+	width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    margin: 20px 20px;
+    border: solid 1px #999;
+}
+.center_art{
+	width: 67%;
+	height: 500px;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+	margin-left:20px;
+	margin-right: 20px;
+	border: solid 1px #999;
+}
+.right_art{
+	width: 120px;
+	height: auto;
+	float: left;
+	background-color: #fff;
+	border: solid 1px #999;
+}
